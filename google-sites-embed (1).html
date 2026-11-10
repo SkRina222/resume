@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Каріна Степанюк — WordPress-розробниця</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b1320;--soft:#111c2d;--text:#e6ebf0;--muted:#9aa7b4;--navy:#070d17;--teal:#5cc0da;--cyan:#29b6d1;--line:#25344a;--card:#111c2d;color-scheme:dark}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1320;--soft:#111c2d;--text:#e6ebf0;--muted:#9aa7b4;--navy:#070d17;--teal:#5cc0da;--cyan:#29b6d1;--line:#25344a;--card:#111c2d}}
+:root[data-theme="dark"]{--bg:#0b1320;--soft:#111c2d;--text:#e6ebf0;--muted:#9aa7b4;--navy:#070d17;--teal:#5cc0da;--cyan:#29b6d1;--line:#25344a;--card:#111c2d}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'Montserrat',system-ui,sans-serif;line-height:1.65;font-size:15px}
+a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
+.hero{background:var(--navy);height:150px}
+.avatar{width:128px;height:128px;border-radius:50%;border:5px solid var(--cyan);background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-size:40px;font-weight:300;letter-spacing:.05em;margin:-64px auto 0}
+header{text-align:center;padding:24px 20px 28px;max-width:960px;margin:0 auto;border-bottom:3px solid var(--line)}
+h1{font-weight:300;font-size:clamp(28px,6vw,46px);letter-spacing:.22em;text-transform:uppercase;margin:0}
+.role{color:var(--teal);letter-spacing:.25em;text-transform:uppercase;font-size:13px;margin-top:10px}
+nav{margin-top:18px;display:flex;gap:18px;justify-content:center;flex-wrap:wrap;font-size:12px;letter-spacing:.15em;text-transform:uppercase}
+main{max-width:960px;margin:0 auto;padding:10px 20px 50px}
+section{padding-top:34px}
+h2{color:var(--teal);font-weight:400;font-size:13px;letter-spacing:.25em;text-transform:uppercase;margin:0 0 16px}
+h3{font-size:16px;font-weight:600;margin:0 0 4px}
+p{margin:0 0 10px}
+.muted{color:var(--muted);font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--cyan);border-radius:4px;padding:18px}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tag{background:var(--soft);border:1px solid var(--line);border-radius:20px;padding:3px 12px;font-size:12px}
+ul{padding-left:20px;margin:8px 0 0}li{margin-bottom:5px}
+.skills h3{font-size:14px;margin-top:12px}
+.cols{display:grid;grid-template-columns:1fr 2fr;gap:36px}
+@media(max-width:720px){.cols{grid-template-columns:1fr;gap:0}}
+.list a{display:block;padding:12px 0;border-bottom:1px solid var(--line);color:var(--text)}
+.list a:hover{text-decoration:none;color:var(--teal)}
+.list b{font-weight:500}
+footer{text-align:center;padding:26px 20px;background:var(--navy);color:#b9c4d0;font-size:13px}
+footer a{color:var(--cyan)}
+</style>
+</head>
+<body>
+<div class="hero"></div>
+<div class="avatar">КС</div>
+<header>
+  <h1>Каріна Степанюк</h1>
+  <div class="role">WordPress-розробниця</div>
+  <nav><a href="#about">Профіль</a><a href="#projects">Проєкти</a><a href="#blog">Статті</a><a href="#skills">Навички</a><a href="#contact">Контакти</a></nav>
+</header>
+<main>
+<section id="about">
+  <h2>Профіль</h2>
+  <p>WordPress-розробниця з практичним досвідом створення, налаштування та підтримки вебсайтів. Усуваю технічні помилки, оновлюю теми й плагіни, оптимізую контент. Працюю з англомовними матеріалами та інструментами, уважно слухаю запити користувачів, швидко знаходжу рішення та використовую сучасні AI-інструменти для підвищення продуктивності.</p>
+</section>
+
+<section id="projects">
+  <h2>Проєкти</h2>
+  <div class="grid">
+    <div class="card"><h3>B2B SEO Services</h3><p class="muted">WordPress · Elementor</p><p>Сторінка послуг для B2B-компаній: структура від першого екрана до FAQ, блоки з процесом роботи, кейсами та закликами до дії.</p><a href="https://rankinghunt.com/seo-services-for-b2b-companies/" target="_blank" rel="noopener">Переглянути сторінку →</a></div>
+    <div class="card"><h3>Technical SEO Audit Services</h3><p class="muted">WordPress · Elementor / Divi</p><p>Сторінка послуги технічного SEO-аудиту: що входить в аудит, процес із п’яти кроків, результати, FAQ.</p><a href="https://rankinghunt.com/homepage/ranking-hunt-seo-link-building-agency-for-saas-b2b-brands-2/" target="_blank" rel="noopener">Переглянути сторінку →</a></div>
+    <div class="card"><h3>Contact Us</h3><p class="muted">WordPress</p><p>Сторінка контактів для Ranking Hunt із кнопками, що ведуть до заявки на аудит.</p><a href="https://rankinghunt.com/contact-us/" target="_blank" rel="noopener">Переглянути сторінку →</a></div>
+    <div class="card"><h3>Блог Ranking Hunt</h3><p class="muted">WordPress · Рубрики · Шаблон запису</p><p>Сторінка блогу з картками статей, категоріями, датою та часом читання.</p><a href="https://rankinghunt.com/blog/" target="_blank" rel="noopener">Переглянути блог →</a></div>
+    <div class="card"><h3>Вебсайт стоматологічної клініки «ZuBastik»</h3><p class="muted">Повна розробка</p><p>Розробка та налаштування сайту, адаптивна верстка, підключення форм запису клієнтів.</p></div>
+  </div>
+</section>
+
+<section id="blog">
+  <h2>SEO-статті</h2>
+  <p class="muted">Статті про лінкбілдинг, SEO та веб-дизайн у блозі Ranking Hunt.</p>
+  <div class="list">
+    <a href="https://rankinghunt.com/modern-link-building-strategies/" target="_blank" rel="noopener"><b>Link Building Strategy</b><br><span class="muted">Link Building · 23.06.2026 · 9 хв читання</span></a>
+    <a href="https://rankinghunt.com/5-ui-ux-design-blunders-that-are-killing-your-google-rankings/" target="_blank" rel="noopener"><b>5 UI/UX Design Blunders That Are Killing Your Google Rankings</b><br><span class="muted">UI/UX Design · 23.06.2026 · 8 хв читання</span></a>
+    <a href="https://rankinghunt.com/diy-seo-audit-step-by-step-guide/" target="_blank" rel="noopener"><b>DIY SEO Audit: A 4-Step Checklist for Beginners 2026</b><br><span class="muted">SEO · 22.06.2026 · 11 хв читання</span></a>
+    <a href="https://rankinghunt.com/link-building/" target="_blank" rel="noopener"><b>Why Link Building is the Secret Weapon for Startups and Global Brands</b><br><span class="muted">Link Building · 19.06.2026 · 8 хв читання</span></a>
+    <a href="https://rankinghunt.com/modern-web-workflows/" target="_blank" rel="noopener"><b>Mastering Modern Web Workflows</b><br><span class="muted">SEO · 6 хв читання</span></a>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Досвід</h2>
+  <h3>WordPress Developer</h3>
+  <p class="muted"><a href="https://rankinghunt.com/" target="_blank" rel="noopener">Ranking Hunt LLC</a> (віддалено) · <i>червень 2026 — по теперішній час</i></p>
+  <ul>
+    <li>Розробка та запуск programmatic SEO-сторінок на WordPress (Elementor, Divi)</li>
+    <li>Підтримка сайту в актуальному стані: оновлення теми, усунення помилок і конфліктів після оновлень</li>
+    <li>Проєктування та реалізація дизайну головної сторінки й сторінок послуг</li>
+    <li>Створення hub-сторінок і шаблонів для швидкого запуску нових розділів</li>
+    <li>Аналіз конкурентів в Ahrefs, розробка контент-планів, написання SEO-статей</li>
+    <li>Адміністрування сайту через cPanel, контроль стабільності баз даних, шаблонів та інтеграцій</li>
+  </ul>
+</section>
+
+<section id="skills" class="skills">
+  <h2>Навички</h2>
+  <div class="cols">
+    <div>
+      <h3>CMS і конструктори</h3><div class="tags"><span class="tag">WordPress</span><span class="tag">Elementor</span><span class="tag">Divi</span><span class="tag">Ohio</span></div>
+      <h3>Front-end</h3><div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+    </div>
+    <div>
+      <h3>SEO і контент</h3><div class="tags"><span class="tag">Programmatic SEO</span><span class="tag">Ahrefs</span><span class="tag">Google Search Console</span><span class="tag">Google Analytics</span><span class="tag">SEO-копірайтинг</span></div>
+      <h3>Інструменти</h3><div class="tags"><span class="tag">Figma</span><span class="tag">Canva</span><span class="tag">MS Office</span><span class="tag">cPanel</span><span class="tag">AI-інструменти</span></div>
+      <h3>Мови</h3><p class="muted">Українська — рідна · Англійська — вище середнього · Португальська — початковий</p>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Освіта</h2>
+  <h3>Технічний фаховий коледж ЛНТУ</h3>
+  <p class="muted">Спеціальність 126 «Інформаційні системи та технології» · 2024 – 2028</p>
+</section>
+</main>
+
+<footer id="contact">
+  <p style="letter-spacing:.25em;text-transform:uppercase;font-size:12px;color:var(--cyan)">Контакти</p>
+  <a href="mailto:karina.stepaniuk09@gmail.com">karina.stepaniuk09@gmail.com</a> · <a href="tel:+380973195252">+380 97 319 5252</a> · <a href="https://t.me/wulritt" target="_blank" rel="noopener">Telegram: @wulritt</a>
+</footer>
+</body>
+</html>
